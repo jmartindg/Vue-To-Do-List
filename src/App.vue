@@ -9,11 +9,11 @@
         <NoTodos />
       </section>
       <section v-if="todoStore.todos.length > 0">
-        <div class="flex items-center justify-end space-x-4">
-          <p class="font-semibold pb-4">
+        <div class="flex items-center justify-center md:justify-end space-x-4">
+          <p class="font-semibold mb-4 px-3 py-2 rounded-md bg-white">
             Todos: <span class="font-normal">{{ todoStore.todos.length }}</span>
           </p>
-          <p class="font-semibold pb-4">
+          <p class="font-semibold mb-4 px-3 py-2 rounded-md bg-white">
             Done:
             <span class="font-normal" v-if="todoStore.doneTodosCount === 0"
               >0</span

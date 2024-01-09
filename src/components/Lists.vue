@@ -1,5 +1,5 @@
 <template>
-  <section class="">
+  <section>
     <ul class="space-y-3" v-auto-animate>
       <li
         v-for="(todo, index) in todos"
